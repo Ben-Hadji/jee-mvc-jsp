@@ -13,7 +13,9 @@
 </head>
 <body>
     <h1 style="text-align: center"><spring:message code="application.title"/></h1>
-    <a href="countries">Countries</a>
-    <a href="cities">Cities</a>
+    <a href="countries">Pays</a>
+    <a href="cities">Villes</a>
+    <a href="?lang=en">anglais</a>
+    <a href="?lang=fr">francais</a>
 </body>
 </html>

@@ -17,7 +17,7 @@
     <!-- 	CSS (w3css) de la Page -->
     <link rel="stylesheet" href="<c:url value="css/w3.css" />"/>
 
-    <title>Countries JSP</title>
+    <title>Villes JSP</title>
 
 </head>
 
@@ -26,7 +26,7 @@
 <%--<jsp:include page="header.jsp"></jsp:include>--%>
 
 <div class="w3-container">
-    <h2 style="text-align: center">Sakila - cities</h2>
+    <h2 style="text-align: center">Sakila - villes</h2>
     <br>
     <a class="w3-button" href="<c:url value="/" />">Retour</a>
 

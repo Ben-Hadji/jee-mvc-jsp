@@ -14,7 +14,7 @@
     <!-- 	CSS (w3css) de la Page -->
     <link rel="stylesheet" href="<c:url value="css/w3.css" />"/>
 
-    <title>Countries Add/Modify JSP</title>
+    <title>Ajouter/Modifier Pays JSP</title>
 
 </head>
 <body>
@@ -27,8 +27,8 @@
                 <td>Nom du Pays:</td>
                 <td><input type="text" name="country" value="${country.country}"/></td>
             </tr>
-            <th><input type="submit" value="Submit"/></th>
-            <th><input type="reset" value="Clear"/></th>
+            <th><input type="submit" value="Soumettre"/></th>
+            <th><input type="reset" value="Efacer"/></th>
         </table>
     </form>
 </div>
