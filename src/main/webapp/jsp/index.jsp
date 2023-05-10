@@ -9,13 +9,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <a href="?lang=en"><spring:message code="application.en"/></a>
+    <a href="?lang=fr"><spring:message code="application.fr"/></a>
     <title>Index</title>
+
 </head>
 <body>
     <h1 style="text-align: center"><spring:message code="application.title"/></h1>
-    <a href="countries">Pays</a>
-    <a href="cities">Villes</a>
-    <a href="?lang=en">anglais</a>
-    <a href="?lang=fr">francais</a>
+    <a href="countries"><spring:message code="application.countries"/></a>
+    <a href="cities"><spring:message code="application.cities"/></a>
+
 </body>
 </html>

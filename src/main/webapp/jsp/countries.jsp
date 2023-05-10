@@ -16,8 +16,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 	CSS (w3css) de la Page -->
     <link rel="stylesheet" href="<c:url value="css/w3.css" />"/>
-
-    <title>Pays JSP</title>
+    <a href="?lang=en"><spring:message code="application.en"/></a>
+    <a href="?lang=fr"><spring:message code="application.fr"/></a>
+    <title><spring:message code="application.countries"/> JSP</title>
 
 </head>
 
@@ -28,15 +29,15 @@
 <div class="w3-container">
     <h2 style="text-align: center">Sakila - Villes</h2>
     <br>
-    <a class="w3-button" href="<c:url value="/" />">Retour</a>
+    <a class="w3-button" href="<c:url value="/" />"><spring:message code="application.back"/></a>
 
     <div class="w3-container w3-center">
-        <a class="w3-button" href="<c:url value="countryModify" />">Nouveau</a>
+        <a class="w3-button" href="<c:url value="countryModify" />"><spring:message code="application.new"/></a>
         <table id="countriesTable" class="w3-centered w3-table-all">
             <thead>
             <tr class="w3-light-grey">
                 <th>Id</th>
-                <th>Country</th>
+                <th><spring:message code="application.country"/></th>
             </tr>
             </thead>
             <tbody>
