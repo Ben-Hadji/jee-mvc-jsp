@@ -32,7 +32,7 @@
     <a class="w3-button" href="<c:url value="/" />"><spring:message code="application.back"/></a>
 
     <div class="w3-container w3-center">
-        <a class="w3-button" href="<c:url value="countryModify" />"><spring:message code="application.new"/></a>
+        <a class="w3-button" href="<c:url value="cityModify" />"><spring:message code="application.new"/></a>
         <table id="countriesTable" class="w3-centered w3-table-all">
             <thead>
             <tr class="w3-light-grey">

@@ -13,6 +13,9 @@ public class City {
     private Long id;
     private String city;
 
+    @Column(name = "img")
+    private byte[] image;
+
     // Lazy  -> Les associations NE SONT PAS résolues au momment de l'accès sur l'entité
     // Eager -> Les associations sont résolues au momment de l'accès sur l'entité
 
@@ -24,6 +27,7 @@ public class City {
 
     @Column(name="last_update")
     private LocalDateTime lastUpdate;
+
 
     public Long getId() {
         return id;
@@ -70,6 +74,14 @@ public class City {
         return this;
     }
 
+    public byte[] getImage() {
+        return image;
+    }
+
+    public void setImage(byte[] image) {
+        this.image = image;
+    }
+
     @Override
     public String toString() {
         return "City{" +
@@ -78,6 +90,6 @@ public class City {
                 ", country=" + country +
                 ", capital=" + capital +
                 ", lastUpdate=" + lastUpdate +
-                '}';
+        '}';
     }
 }
